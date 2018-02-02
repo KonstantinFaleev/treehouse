@@ -1,3 +1,3 @@
-name = "Jason"
-puts ("Hello!");
-puts name
+print "Please enter your name:"
+name = gets
+puts "Hello #{name}!";
