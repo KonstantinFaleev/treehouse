@@ -1,3 +1,9 @@
-print "Please enter your name:"
-name = gets
-puts "Hello #{name}!";
+
+name = "Jason"
+string = <<-STRING
+Hello
+My name is #{name}
+Workspace is fan!
+STRING
+
+puts string
